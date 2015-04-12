@@ -1,0 +1,24 @@
+class Fruta
+ attr_accessor :nombre, :precio
+ def initialize (nombre,precio)
+     @nombre=nombre
+     @precio=precio
+ end
+end
+
+
+Manzana = Fruta.new("Manzana",10)
+Naranja = Fruta.new("Naranja", 5)
+Uvas = Fruta.new("Uvas", 15)
+Plátanos = Fruta.new("Plátanos", 20)
+Melón = Fruta.new("Melón", 50)
+
+def price_manzana
+	i = 10
+end
+def loop 
+i -= 10
+next if i = 2 
+print "#{i}"
+break if i <= 0
+end
